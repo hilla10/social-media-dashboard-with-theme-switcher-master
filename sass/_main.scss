@@ -326,3 +326,24 @@
         }
     }
 }
+
+.footer {
+    width: 100%;
+    margin-top: rem(50);
+    padding: rem(30);
+    text-align: center;
+    background: var(--primary-color-card-bg);
+    color: var(--secondary-color);
+
+    a {
+        color: var(--secondary-color);
+        font-size: rem(18);
+        text-decoration: none;
+        transition: color 400ms ease-in;
+
+        &:hover {
+            color: var(--tertiary-color-text);
+        }
+    }
+
+}
